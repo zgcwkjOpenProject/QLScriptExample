@@ -3,6 +3,7 @@
 这是测试任务脚本的说明
 
 cron: 5 3 2 1 *
+const $ = new Env("Py任务名_测试");
 """
 import os
 import sys

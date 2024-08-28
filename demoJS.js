@@ -3,6 +3,7 @@
 这是测试任务脚本的说明
 
 cron: 4 3 2 1 *
+const $ = new Env("Js任务名_测试");
 */
 const ckName = 'getCk';
 const cookie = process.env[ckName];
